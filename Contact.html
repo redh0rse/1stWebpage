@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+             
+<style type="text/css">
+
+*{margin:0; padding:0; outline: 0;}
+body{font-family: arial; font-size: 14px; line-height:30px; colour:#000;}
+.template {width:960px; 
+           margin:0 auto;}
+.clear{overflow: hidden;}
+input[type="text"],input[type="email address"],input[type="password"]{
+      border:1px solid #rrr;
+      border-radius:3px;
+      margin-bottom:5px;
+      padding:5px;
+      width:300px;}
+ input[type="submit"]
+             {background:#b7801c none repeat scroll 0 0;
+                  border:1px solid #ggg;
+                  color:#fff; 
+                  coursor:pointer;
+                  font-size:20px;
+                  padding:1px 10px;}
+   input[type="submit"]:hover{background:#fff;color: blue;} 
+   textarea{height:110px;
+           margin-bottom:10px;
+           padding:5px;
+           width:300px;
+           border:1px solid #ggg;}             
+.headersection{ 
+             color:#fff;
+             background:#52D017;
+             font-weight: bold;}
+ .logo{  float: left; width:430px;
+ }
+ .logo img{float:left;
+           margin-top:10px;
+           margin-left:10px;
+           margin-bottom:10px;
+           width:70px;
+           
+          }
+ .logo h2{font-size: 35px;
+          margin-bottom: 5px;
+          margin-top: 20px;
+          color:#fff;
+          text-shadow:2px 2px 0 #555;}
+ .logo p{}
+ .social{width:260px;
+         float: right;
+         padding-top:16px;}
+ .social img{width:60px;}         
+
+.navsection{ background: #FDD017; }
+.navsection ul{ margin:0; 
+            padding:0; 
+            list-style:none;}
+.navsection ul li{display: block;
+              float: left;
+              border-left:1px solid #d29000;
+              border-right:1px solid #d29000;}
+.navsection ul li:first-child{ border-left:0px solid #d29000;}
+.navsection ul li:last-child{ border-right:0px solid #d29000;}   
+.navsection ul li a{
+      
+       color:#fff; display: block; font-size:20px;
+       font-weight: bold; padding:5px;
+       text-decoration: none;}
+ .navsection ul li a :hover{background:9d999a; color:#fff;} 
+   #active{background: #fff; color:#000;}     
+ 
+ 
+   
+.contentsection{background:#fff;}
+.maincontent{width:650px; background:#ffe3d5 none repeat scroll 0 0;
+             margin:15px 15px 15px 0; 
+              padding:10px; float:left;}
+  .about{}
+  .about img{border:2px solid #fff;
+             float: left;
+             margin-right:10px;
+             padding:5px;
+             width:300px;}
+  .about p{font-size:16px;
+           line-height:24px;
+           margin-bottom:10px;
+           text-align: justify;}
+.samepost{}
+.samepost h3, .about h2{
+         border-bottom:2px solid #555555;
+         font-size:24px;
+         margin-bottom:10px;
+         padding:10px;}
+.samepost img{
+      background:#fff none repeat scroll 0 0;
+      border:10px solid #9b999a;
+      float: left;
+      margin-right:10px;
+      padding:5px;
+      width:80px;
+      height:90px;}
+.samepost p{
+       font-size:16px;
+       line-height:23px;
+       text-align: justify;}
+.readmore {float: right;
+            margin-top:10px;}
+.readmore a{background:#fff none repeat scroll 0 0;
+      border:1px solid #9b999a;
+      border-radius:3px;
+      color:#333;
+      display: block;
+      font-size:17px;
+      padding:4px 8px;
+      text-decoration: none;}
+         
+.readmore a:hover{color:red;}
+.sidebar{background:#ffe3d5 none repeat scroll 0 0;
+         width:220px;
+          margin: 15px 0 15px  15px ; 
+           padding:10px; float: right;}
+.samesidebar{margin-bottom:10px;}
+.samesidebar h2{
+              background: #ffa67a none repeat scroll 0 0;
+              border-bottom:2px solid #555555; color:#ff0000;
+              margin-bottom:8px; padding:10px;}
+ .samesidebar ul{padding:0;margin:0; list-style: none;}
+ .samesidebar ul li{border-bottom:3px dashed #009a4a;
+                     font-size:16px;
+                     padding:5px 8px 5px 0;}
+  .samesidebar ul li:last-child{border-bottom:3px dashed #009a4a;}                   
+ .samesidebar ul li a{text-decoration: none; color:#814a00;}
+  .samesidebar ul li a:hover{color:#df5c25;}
+   
+.samesidebar p{margin-bottom:10px; text-decoration: justify;}
+.popular{}
+.popular h3{border-bottom:3px dashed #b7801c ;
+            font-size:20px;
+            font-width: normal;
+            margin-bottom:10px;
+            padding-bottom:5px;}
+.popular h3 a{text-decoration: none; color:#444;}           
+.popular img{float: left;
+             height:40px;
+             width:55px;
+             margin-right:10px;
+             background:#fff none repeat scroll 0 0;
+             border:1px solid #f6bf5b;
+             border-radius:30px;
+             margin-top:5px;
+             padding:3px;
+             text-align: justify;}
+.popular p{}
+.footersection{height:120px; background:#52D017; }
+.footermenu{margin-bottom:5px; margin-top:25px; text-align: center;}
+.footermenu ul{ padding:0px; margin-left:330px;list-style: none; text-align: center;}
+.footermenu ul li{display: inline-bloak; float: left; }
+.footermenu ul li a{color:#fff; 
+font-size:18px;
+ text-decoration: none;margin-right:5px; }
+.footersection p{ text-align: center;}
+
+
+
+
+
+
+
+</style>
+<title>Tech Furious</title>
+<link rel="shortcut icon" href="./images/logo96.png" type="image/x-icon">
+</head>
+<body>
+      <div class="headersection template clear">
+            <div class="logo">
+                  <img src="./images/logo100.png" alt="Logo" />
+                  <h2>☬TECH FURIOUS☬</h2>
+                  <p><i>Learn Technology</i></p>
+            </div>
+            <div class="social">
+                  <a href="#" > <img src="./images/git.png" alt ="Github" /></a>
+                  <a href="#" > <img src="./images/insta.png" alt ="Instagram"></a>
+                  <a href="#" ><img src="./images/twitter.png" alt ="Tweeter"/></a>
+                  <a href="#" > <img src="./images/telegram.png" alt ="Telegram"/></a>
+            </div>
+      </div>
+
+
+    <div class="navigation">
+    </div>
+  </div>
+  <div class="navsection template clear">
+      <ul>
+      <li><a  href="workshop.html" >Home</a></li>
+      <li><a  href="About.html" >About</a></li>
+      <li><a href="Products.html" >Products</a></li>
+      <!-- <li><a href="Privacy.html" >Privacy</a></li> -->
+      <li><a href="DMCA.html" >DMCA</a></li>
+      <li><a id="active" href="Contact.html" >Contact</a></li>
+      </ul>
+</div>
+  
+
+            
+          
+            
+<div class="contentsection template clear">
+<div class="maincontent template clear">
+<div class="about">
+<h2>Contact us</h2>
+<table>
+<tr>
+<td>Your First Name:</td>
+<td><input type="text" name="first name" placeholder="enter your first name"/></td>
+</tr>
+<tr>
+<td>Your Last Name:</td>
+<td><input type="text" name="last name" placeholder="enter your last name"/></td>
+</tr>
+<tr>
+<td>Your Email Address:</td>
+<td><input type="text" name="email address" placeholder="enter your email address "/></td>
+</tr>
+<tr>
+<td>Your password:</td>
+<td><input type="password" name="password" placeholder="enter your password"/></td>
+</tr>
+<tr>
+<td>Your Address:</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" name="Submit" value="submit"/></td>
+</tr>
+</table>
+     </div>
+</div>
+<div class="sidebar template clear">
+      <div class="samesidebar clear">
+      <h2>Latest Article</h2>
+      <ul>
+            <li><a href="#" >Post title one will be go here</a></li>
+            <li><a href="#" >Post title two will be go here</a></li>
+            <li><a href="#" >Post title three will be go here</a></li>
+            <li><a href="#" >Post title four will be go here</a></li>
+            <li><a href="#" >Post title five will be go here</a></li>
+            <li><a href="#" >Post title six will be go here</a></li>
+      </ul>
+      </div>
+      <div class="samesidebar clear">
+            <h2>Popular articles</h2>
+            <div class="popular clear">
+            <h3><a href="#">post article will be go here..</a></h3>
+            <img src="./images/side.jpg" alt="img">
+            <p>
+            sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.
+            </p>
+            </div>
+      <div class="popular clear">
+            <h3><a href="#">post article will be go here..</a></h3>
+            <img src="./images/side1.jpg" alt="img">
+            <p>
+            sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.
+            </p>
+      </div>
+      <div class="popular clear">
+            <h3><a href="#">post article will be go here..</a></h3>
+            <img src="./images/side.jpg" alt="img">
+            <p>
+            sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.sidebar text will be go here.
+            sidebar text will be go here.
+            </p> 
+      </div>
+</div>
+
+
+</div>
+</div>
+
+<div class="footersection template clear">
+      <div class="footermenu clear">
+          <ul>
+            <li><a href="#" >Home | </a></li>
+            <li><a href="#" >About | </a></li>
+            <li><a href="#" >Contact | </a></li>
+            <li><a href="#" >Privacy policy</a></li>
+          </ul>
+      </div>
+      <p>copyright &copy; 2023 Tech Furious</p>
+</div>
+
+</body>
+</html>

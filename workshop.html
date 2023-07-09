@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+             
+<style type="text/css">
+
+*{margin:0; padding:0; outline:0; }
+body{font-family: arial; font-size: 14px; line-height:30px; }
+.template {width:960px; 
+           margin:0 auto;}
+.clear{overflow: hidden;}
+.headersection{ 
+             color:#fff;
+             background:#52D017;
+             font-weight: bold;}
+ .logo{  float: left; width:430px;
+ }
+ .logo img{float:left;
+           margin-top:10px;
+           margin-left:10px;
+           margin-bottom:10px;
+           width:70px;
+           
+          }
+ .logo h2{font-size: 35px;
+          margin-bottom: 5px;
+          margin-top: 20px;
+          color:#fff;
+          text-shadow:2px 2px 0 #555;}
+ .logo p{}
+ .social{width:260px;
+         float: right;
+         padding-top:16px;}
+ .social img{width:60px;}         
+
+.navsection{ background: #FDD017; }
+.navsection ul{ margin:0; 
+            padding:0; 
+            list-style:none;}
+.navsection ul li{display: block;
+              float: left;
+              border-left:1px solid #d29000;
+              border-right:1px solid #d29000;}
+.navsection ul li:first-child{ border-left:0px solid #d29000;}
+.navsection ul li:last-child{ border-right:0px solid #d29000;}                        
+.navsection ul li a{
+      
+       color:#fff; display: block; font-size:20px;
+       font-weight: bold; padding:5px;
+       text-decoration: none;}
+ .navsection ul li a :hover,#active{background:9d999a; color:#fff;} 
+ #active{background: #fff; color:#000;}  
+        *{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+        }
+        
+        .slider{
+        overflow: hidden;
+        
+        }
+        
+        .slider figure div{
+        width: 20%;
+        float: left;
+        }
+        
+        .slider figure img{
+        width: 100%;
+        float: left;
+        }
+        
+        .slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slidy infinite;
+        }
+        
+        @keyframes slidy{
+        0%{
+        left: 0%
+        }
+        
+        10%{
+        left: 0%;
+        }
+        
+        12%{
+        left: -100%;
+        }
+        
+        22%{
+        left: -100%;
+        }
+        
+        24%{
+        left: -200%;
+        }
+        
+        34%{
+        left: -200%;
+        }
+        
+        36%{
+        left: -300%;
+        }
+        
+        46%{
+        left: -300%;
+        }
+        
+        48%{
+        left: -400%;
+        }
+        
+        58%{
+        left: -400%;
+        }
+        
+        60%{
+        left: -300%;
+        }
+        
+        70%{
+        left: -300%;
+        }
+        
+        72%{
+        left: -200%;
+        }
+        
+        82%{
+        left: -200%;
+        }
+        
+        84%{
+        left: -100%;
+        }
+        
+        94%{
+        left: -100%;
+        }
+        
+        96%{
+        left: 0%;
+        }
+        
+        100%{
+        left: 0%;
+        }
+        }
+ 
+ 
+   
+.contentsection{background:#fff; }
+.maincontent{width:650px; background:#ffe3d5 none repeat scroll 0 0;
+              margin:15px 15px 15px 0;
+              padding:10px; float:left;}
+.samepost{}
+.samepost h3{
+         border-bottom:2px solid #555555;
+         font-size:24px;
+         margin-bottom:10px;
+         padding:10px;}
+.samepost img{
+      background:#fff none repeat scroll 0 0;
+      border:10px solid #9b999a;
+      float: left;
+      margin-right:10px;
+      padding:5px;
+      width:80px;
+      height:90px;}
+.samepost p{
+       font-size:16px;
+       line-height:23px;
+       text-align: justify;}
+.readmore {float: right;
+            margin-top:10px;}
+.readmore a{background:#fff none repeat scroll 0 0;
+      border:1px solid #9b999a;
+      border-radius:3px;
+      color:#333;
+      display: block;
+      font-size:17px;
+      padding:4px 8px;
+      text-decoration: none;}
+         
+.readmore a:hover{color:red;}
+.sidebar{background:#ffe3d5 none repeat scroll 0 0;
+         width:220px;
+          margin: 15px 0 15px  15px ; 
+           padding:10px; float: right;}
+.samesidebar{margin-bottom:10px;}
+.samesidebar h2{
+              background: #ffa67a none repeat scroll 0 0;
+              border-bottom:2px solid #555555; color:#ff0000;
+              margin-bottom:8px; padding:10px;}
+ .samesidebar ul{padding:0;margin:0; list-style: none;}
+ .samesidebar ul li{border-bottom:3px dashed #009a4a;
+                     font-size:16px;
+                     padding:5px 8px 5px 0;}
+  .samesidebar ul li:last-child{border-bottom:3px dashed #009a4a;}                   
+ .samesidebar ul li a{text-decoration: none; color:#814a00;}
+  .samesidebar ul li a:hover{color:#df5c25;}
+   
+.samesidebar p{margin-bottom:10px; text-align: justify;}
+.popular{}
+.popular h3{border-bottom:3px dashed #b7801c ;
+            font-size:20px;
+            font-width: normal;
+            margin-bottom:10px;
+            padding-bottom:5px;}
+.popular h3 a{text-decoration: none; color:#444;}           
+.popular img{float: left;
+             height:40px;
+             width:55px;
+             margin-right:10px;
+             background:#fff none repeat scroll 0 0;
+             border:1px solid #f6bf5b;
+             border-radius:30px;
+             margin-top:5px;
+             padding:3px;
+             text-align: justify;}
+.popular p{} 
+.footersection{height:120px; background:#52D017; }
+.footermenu{margin-bottom:5px; margin-top:25px; text-align: center;}
+.footermenu ul{ padding:0px; margin-left:330px;list-style: none; text-align: center;}
+.footermenu ul li{display: inline-bloak; float: left; }
+.footermenu ul li a{color:#fff; 
+          font-size:18px;
+          margin-right:5px;
+           text-decoration: none;}
+.footersection p{ text-align: center;}
+
+
+
+
+
+
+
+</style>
+<title>Tech Furious</title>
+<link rel="shortcut icon" href="./images/logo96.png" type="image/x-icon">
+</head>
+<body>
+<div class="headersection template clear">
+      <div class="logo">
+            <img src="./images/logo100.png" alt="Logo" />
+            <h2>☬TECH FURIOUS☬</h2>
+            <p><i>Learn Technology</i></p>
+      </div>
+      <div class="social">
+            <a href="#" > <img src="./images/git.png" alt ="Github" /></a>
+            <a href="#" > <img src="./images/insta.png" alt ="Instagram"></a>
+            <a href="#" ><img src="./images/twitter.png" alt ="Tweeter"/></a>
+            <a href="#" > <img src="./images/telegram.png" alt ="Telegram"/></a>
+      </div>
+</div>
+
+
+<div class="navigation">
+<!-- </div>
+  </div> -->
+<div class="navsection template clear">
+       <ul>
+       <li><a id="active" href="workshop.html" >Home</a></li>
+       <li><a href="About.html" >About</a></li>
+       <li><a href="Products.html" >Products</a></li>
+       <!-- <li><a href="Privacy.html" >Privacy</a></li> -->
+       <li><a href="DMCA.html" >DMCA</a></li>
+       <li><a href="Contact.html" >Contact</a></li>
+       </ul>
+ </div>
+    
+        <div class="slider template clear">
+        <figure>
+        <div class="slide template clear">
+        <img src="./images/pc.jpg">
+        </div>
+        
+        <div class="slide template clear">
+        <img src="./images/data.jpg">
+        </div>
+        
+        <div class="slide template clear">
+        <img src="./images/wave.jpg">
+        </div>
+        
+        <div class="slide template clear">
+        <img src="./images/ai.jpg">
+        </div>
+        <div class="slide template clear">
+        <img src="./images/matrix.jpg">
+        </div>
+        
+        </figure>
+        </div>
+
+            
+          
+            
+<div class="contentsection template clear ">
+<div class="maincontent template clear">
+   <div class="samepost clear">
+      <h3>Firsr article</h3>
+      <img src="./images/post.jpg" alt="post image">
+      <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laborum dolorum vitae, tenetur, neque minus quibusdam aliquid fugiat est nihil necessitatibus quas exercitationem possimus dolor provident dignissimos quae officia optio. Modi debitis voluptates repellat ullam neque reiciendis sapiente illum deserunt atque pariatur? Illo facere eius dolorem perferendis est, ipsam facilis.
+      </p>
+            <div class="readmore clear"><a target="_blank" href="#" > Read More</a> 
+            </div>
+      </div>
+      <div class="samepost clear">
+      <h3>Second article</h3>
+      <img src="./images/post.jpg" alt="post image">
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde ex perspiciatis ipsum quisquam doloribus ducimus recusandae quam, porro ut pariatur numquam consectetur fugiat error, commodi culpa deserunt illo, vitae eum sapiente quaerat. Nostrum qui quibusdam blanditiis minima neque maiores culpa necessitatibus, at temporibus nulla quis eum sequi soluta unde?
+      </p>
+            <div class="readmore clear"><a href="#" > Read More</a>
+            </div>
+      </div>
+     <div class="samepost clear">
+      <h3>Third article</h3>
+      <img src="./images/post1.jpg" alt="post image">
+     <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime perferendis a itaque! Assumenda, praesentium. Est, id dolorem accusantium accusamus nostrum fugiat dicta voluptas adipisci quasi tempore possimus laboriosam a alias exercitationem natus voluptatum placeat cumque esse amet iusto! Quibusdam id voluptatum odio sapiente veniam necessitatibus neque at assumenda natus accusamus?
+     </p>
+     <div class="readmore clear"><a href="#" > Read More</a></div>
+     </div>
+     <div class="samepost clear">
+      <h3>Forth article</h3>
+      <img src="./images/post.jpg" alt="post image">
+     <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime perferendis a itaque! Assumenda, praesentium. Est, id dolorem accusantium accusamus nostrum fugiat dicta voluptas adipisci quasi tempore possimus laboriosam a alias exercitationem natus voluptatum placeat cumque esse amet iusto! Quibusdam id voluptatum odio sapiente veniam necessitatibus neque at assumenda natus accusamus?
+     </p>
+     <div class="readmore clear"><a href="#" > Read More</a></div>
+     </div>
+</div>
+      <div class="sidebar template clear">
+            <div class="samesidebar clear">
+            <h2>Latest Article</h2>
+            <ul>
+                  <li><a href="#" >Post title one will be go here</a></li>
+                  <li><a href="#" >Post title two will be go here</a></li>
+                  <li><a href="#" >Post title three will be go here</a></li>
+                  <li><a href="#" >Post title four will be go here</a></li>
+                  <li><a href="#" >Post title five will be go here</a></li>
+                  <li><a href="#" >Post title six will be go here</a></li>
+            </ul>
+            </div>
+            <div class="samesidebar clear">
+                  <h2>Popular articles</h2>
+                  <div class="popular clear">
+                  <h3><a href="#">post article will be go here..</a></h3>
+                  <img src="./images/side.jpg" alt="img">
+                  <p>
+                  sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.
+                  </p>
+                  </div>
+            <div class="popular clear">
+                  <h3><a href="#">post article will be go here..</a></h3>
+                  <img src="./images/side1.jpg" alt="img">
+                  <p>
+                  sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.
+                  </p>
+            </div>
+            <div class="popular clear">
+                  <h3><a href="#">post article will be go here..</a></h3>
+                  <img src="./images/side.jpg" alt="img">
+                  <p>
+                  sidebar text will be go here.sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.sidebar text will be go here.
+                  sidebar text will be go here.
+                  </p> 
+            </div>
+      </div>
+      </div>
+</div>
+
+<div class="footersection template clear">
+      <div class="footermenu clear">
+          <ul>
+            <li><a href="#" >Home | </a></li>
+            <li><a href="#" >About | </a></li>
+            <li><a href="#" >Contact | </a></li>
+            <li><a href="#" >Privacy policy</a></li>
+          </ul>
+      </div>
+      <p>copyright &copy; 2023 Tech Furious</p>
+</div>
+
+
+</body>
+</html>
